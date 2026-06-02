@@ -1,47 +1,23 @@
-# Trust-Centric Threat Modeling Framework (TCTM)
+# Trust-Centric Threat Modeling Framework
 
-## Overview
+TCTM is a research framework for evaluating security, governance, decision integrity, and trust in autonomous AI systems.
 
-The Trust-Centric Threat Modeling Framework (TCTM) is a research framework designed to evaluate trust, governance, decision integrity, and security risks in autonomous AI systems.
+## Explore the Framework
 
-## Core Components
+- [Trust Domains](../framework/trust-domains.md)
+- [Threat Taxonomy](../framework/threat-taxonomy.md)
+- [Trust Risk Matrix](../framework/trust-risk-matrix.md)
+- [Trust Maturity Model](../framework/maturity-model.md)
 
-- Trust Domains
-- Threat Taxonomy
-- Trust Risk Matrix
-- Trust Maturity Model
-- Trust Metrics
+## Case Studies
 
-## Research Areas
+- [Enterprise Financial AI Agent](../case-studies/enterprise-financial-agent.md)
+- [Autonomous Security Operations Agent](../case-studies/autonomous-security-agent.md)
 
-- AI Security
-- AI Governance
-- Digital Trust
-- Agentic AI
-- Autonomous Systems
-- Cybersecurity Strategy
+## Research Notes
 
-## Framework Structure
-
-```text
-Trust Domains
-      ↓
-Threat Taxonomy
-      ↓
-Trust Risk Matrix
-      ↓
-Trust Maturity Model
-```
-
-## Documentation
-
-- Framework
-- White Paper
-- Case Studies
-- Research Notes
-
-## Author
-
-Tharcilia Rollemberg
-
-Cybersecurity | AI Governance | Digital Trust
+- [Trust Engineering](../research-notes/01-trust-engineering.md)
+- [Decision Security](../research-notes/02-decision-security.md)
+- [Trust Observability](../research-notes/03-trust-observability.md)
+- [Agent Governance](../research-notes/04-agent-governance.md)
+- [AI Assurance Models](../research-notes/05-ai-assurance-models.md)
