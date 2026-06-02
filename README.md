@@ -78,8 +78,11 @@ The framework provides a structured methodology for evaluating trust-related ris
 # Core Components
 
 ## Trust Domains
-
 TCTM evaluates trust across five dimensions.
+
+![Trust Domains](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%2003.png)
+
+
 
 | Trust Domain      | Objective                                         |
 | ----------------- | ------------------------------------------------- |
