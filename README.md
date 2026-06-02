@@ -1,3 +1,5 @@
+![Research](https://img.shields.io/badge/Research-Autonomous%20AI-blue) ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-TCTM-green) ![AI Governance](https://img.shields.io/badge/AI-Governance-orange) ![Status](https://img.shields.io/badge/Status-Active%20Research-success)
+
 # Trust-Centric Threat Modeling Framework (TCTM)
 
 ## Trust as a Security Objective for Autonomous AI Systems
