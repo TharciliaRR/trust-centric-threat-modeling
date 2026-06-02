@@ -203,19 +203,8 @@ Evidence-based validation of trustworthy autonomy.
 
 # Research Roadmap
 
-Current research areas include:
-
-```text
-Trust Engineering
-        ↓
-Decision Security
-        ↓
-Trust Observability
-        ↓
-Agent Governance
-        ↓
-AI Assurance
-```
+Current research areas include:  
+![Research Roadmap](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram-08.png)  
 
 Future phases will explore:
 
@@ -300,6 +289,30 @@ The framework seeks to establish trust as a measurable organizational capability
 | Autonomous Security Operations Agent | [case-studies/autonomous-security-agent.md](case-studies/autonomous-security-agent.md) |
 | Research Roadmap | [research/roadmap.md](research/roadmap.md) |
 | References | [references/references.md](references/references.md) |
+
+---
+# Presentations
+
+This directory contains executive and research presentations related to the Trust-Centric Threat Modeling Framework (TCTM).
+
+## Available Presentations
+
+### TCTM Executive Overview
+
+Executive presentation introducing:
+
+- Trust Domains
+- Threat Taxonomy
+- Trust Risk Matrix
+- Trust Metrics
+- Trust Maturity Model
+- Research Contributions
+- Future Research Directions
+
+Files:
+
+- tctm-executive-overview.pdf
+- tctm-executive-overview.pptx
 
 ---
 ## Assessment Examples
