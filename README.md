@@ -69,17 +69,7 @@ Organizations must also secure:
 
 # Framework Architecture
 
-```text
-Trust Domains
-       ↓
-Threat Taxonomy
-       ↓
-Trust Risk Matrix
-       ↓
-Trust Maturity Model
-       ↓
-Trust Assurance
-```
+![TCTM Architecture](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%2005.png)
 
 The framework provides a structured methodology for evaluating trust-related risks across autonomous AI ecosystems.
 
