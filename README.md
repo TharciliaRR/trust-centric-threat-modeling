@@ -302,7 +302,20 @@ The long-term vision of TCTM is to contribute to the development of methodologie
 The framework seeks to establish trust as a measurable organizational capability rather than an abstract concept.
 
 ---
+## Quick Access
 
+| Section | Link |
+|--------|------|
+| Trust Domains | [framework/trust-domains.md](framework/trust-domains.md) |
+| Threat Taxonomy | [framework/threat-taxonomy.md](framework/threat-taxonomy.md) |
+| Trust Risk Matrix | [framework/trust-risk-matrix.md](framework/trust-risk-matrix.md) |
+| Trust Maturity Model | [framework/maturity-model.md](framework/maturity-model.md) |
+| Enterprise Financial AI Agent | [case-studies/enterprise-financial-agent.md](case-studies/enterprise-financial-agent.md) |
+| Autonomous Security Operations Agent | [case-studies/autonomous-security-agent.md](case-studies/autonomous-security-agent.md) |
+| Research Roadmap | [research/roadmap.md](research/roadmap.md) |
+| References | [references/references.md](references/references.md) |
+
+---
 # Author
 
 ## Tharcilia Rollemberg
