@@ -302,6 +302,11 @@ The framework seeks to establish trust as a measurable organizational capability
 | References | [references/references.md](references/references.md) |
 
 ---
+## Assessment Examples
+
+- [Complete TCTM Assessment](examples/complete-tctm-assessment.md)
+
+---
 # Author
 
 ## Tharcilia Rollemberg
