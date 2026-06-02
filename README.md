@@ -1,102 +1,83 @@
-# Trust-Centric Threat Modeling Framework (TCTM)
-
-## Security, Governance, and Trust for Autonomous AI Systems
-
 ![Research](https://img.shields.io/badge/Research-Autonomous%20AI-blue)
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-TCTM-green)
 ![AI Governance](https://img.shields.io/badge/AI-Governance-orange)
 ![Digital Trust](https://img.shields.io/badge/Digital%20Trust-Framework-purple)
 ![Status](https://img.shields.io/badge/Status-Active%20Research-success)
 
----
+# Trust-Centric Threat Modeling Framework (TCTM)
 
-## Executive Summary
-
-The Trust-Centric Threat Modeling Framework (TCTM) is an independent research initiative focused on addressing one of the most significant challenges introduced by autonomous artificial intelligence systems:
-
-> How can organizations measure, govern, secure, and preserve trust in autonomous AI?
-
-While existing cybersecurity frameworks effectively protect infrastructure, applications, and information assets, autonomous AI systems introduce new categories of risk that extend beyond traditional security concerns.
-
-These risks include:
-
-* Decision Integrity Failures
-* Trust Degradation
-* Governance Gaps
-* Autonomous Agent Risks
-* Accountability Failures
-* Context Manipulation
-* Confidence Erosion
-
-TCTM proposes a trust-oriented approach to evaluating and managing these risks.
+## Security, Governance, and Trust for Autonomous AI Systems
 
 ---
 
-# Research Motivation
+## Overview
 
-Cybersecurity has traditionally focused on protecting systems.
+The Trust-Centric Threat Modeling Framework (TCTM) is a research-driven framework designed to evaluate trust-related risks in autonomous AI systems.
 
-Autonomous AI systems require organizations to protect something equally important:
+Traditional threat modeling methodologies primarily focus on protecting:
 
-> Trust in decisions.
+* Infrastructure
+* Applications
+* Data
+* AI Models
 
-Modern organizations increasingly deploy AI agents capable of:
+TCTM extends this perspective by introducing trust as a measurable and governable capability.
 
-* Making recommendations
-* Prioritizing actions
-* Managing workflows
-* Supporting executives
-* Conducting investigations
-* Executing operational tasks
+The framework evaluates:
 
-As autonomy increases, the ability to secure infrastructure alone becomes insufficient.
-
-Organizations must also secure:
-
-* Decisions
-* Governance
+* Trustworthiness
+* Decision Integrity
+* Governance Effectiveness
 * Accountability
-* Confidence
-* Organizational Trust
+* Operational Resilience
+
+for autonomous and agentic AI environments.
 
 ---
 
-# Research Question
+## Why TCTM?
 
-> How can organizations evaluate, monitor, and improve trustworthiness in autonomous AI systems?
+Traditional frameworks answer:
+
+* What can be attacked?
+* How can it be attacked?
+* What controls should be implemented?
+
+TCTM additionally asks:
+
+* What happens when trust is compromised?
+* How can trust be measured?
+* How can trust be monitored?
+* How can trust be governed?
+* How can trust be preserved?
+
+### Research Proposition
+
+> In autonomous AI environments, trust should be treated as a measurable, governable, and protectable organizational capability.
 
 ---
 
-# Framework Architecture
+## Framework Architecture
 
 ![TCTM Architecture](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%2005.png)
 
-The framework provides a structured methodology for evaluating trust-related risks across autonomous AI ecosystems.
+---
+
+## Core Components
+
+### Trust Domains
+
+| Domain            | Objective                                  |
+| ----------------- | ------------------------------------------ |
+| Identity Trust    | Authentication and authorization           |
+| Context Trust     | Information quality and integrity          |
+| Decision Trust    | Reliability of recommendations and actions |
+| Governance Trust  | Accountability and oversight               |
+| Operational Trust | Runtime behavior and resilience            |
 
 ---
 
-# Core Components
-
-## Trust Domains
-TCTM evaluates trust across five dimensions.
-
-![Trust Domains](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%2003.png)
-
-
-
-| Trust Domain      | Objective                                         |
-| ----------------- | ------------------------------------------------- |
-| Identity Trust    | Trust in identities, access, and authorization    |
-| Context Trust     | Trust in information, knowledge, and data sources |
-| Decision Trust    | Trust in recommendations, actions, and outcomes   |
-| Governance Trust  | Trust in accountability and oversight mechanisms  |
-| Operational Trust | Trust in runtime behavior and resilience          |
-
----
-
-## Threat Taxonomy
-
-TCTM introduces a trust-oriented threat classification model.
+### Threat Taxonomy
 
 | Category | Description                |
 | -------- | -------------------------- |
@@ -105,120 +86,87 @@ TCTM introduces a trust-oriented threat classification model.
 | GFT      | Governance Failure Threats |
 | OTT      | Operational Trust Threats  |
 
-Example threats include:
-
-* Prompt Injection
-* Context Poisoning
-* Hallucinated Actions
-* Decision Drift
-* Missing Accountability
-* Agent Hijacking
-
 ---
 
-## Trust Risk Matrix
-
-Traditional cybersecurity risk:
+### Trust Risk Formula
 
 ```text
-Risk = Impact × Likelihood
+Risk Score = Impact × Likelihood × Trust Impact
 ```
 
-TCTM extends this model:
-
-```text
-Risk = Impact × Likelihood × Trust Impact
-```
-
-This introduces trust degradation as a measurable risk factor.
+TCTM extends traditional risk assessment by incorporating Trust Impact as an independent risk factor.
 
 ---
 
-## Trust Maturity Model
+### Trust Maturity Model
 
-TCTM defines five maturity levels.  
-![Trust Maturity Model](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%2007.png)
-
----
-
-# Research Notes
-
-The project includes exploratory research across emerging disciplines.
-
-| Research Area       | Focus                                             |
-| ------------------- | ------------------------------------------------- |
-| Trust Engineering   | Engineering trust as an organizational capability |
-| Decision Security   | Protecting autonomous decisions                   |
-| Trust Observability | Monitoring trust degradation                      |
-| Agent Governance    | Governing autonomous agents                       |
-| AI Assurance Models | Demonstrating trustworthy autonomy                |
-
-These research areas form the foundation of the broader TCTM research agenda.
+| Level   | Description              |
+| ------- | ------------------------ |
+| Level 1 | Experimental             |
+| Level 2 | Controlled               |
+| Level 3 | Governed                 |
+| Level 4 | Resilient                |
+| Level 5 | Trust-Centric Enterprise |
 
 ---
 
-# Case Studies
+## Research Contributions
 
-The repository includes practical applications of the framework.
+The framework introduces several concepts intended to support governance and security of autonomous AI systems.
 
-### Enterprise Financial AI Agent
+### Trust Domains
 
-Evaluation of trust-related risks in autonomous financial decision systems.
+A multidimensional trust assessment model.
 
-### Autonomous Security Operations Agent
+### Trust Impact
 
-Application of TCTM within AI-enabled SOC environments.
+Trust degradation as a measurable risk variable.
 
----
+### Decision Security
 
-# Research Contributions
+Protection of decision integrity within autonomous systems.
 
-TCTM introduces several novel concepts.
+### Trust Observability
 
-## Trust Domains
+Monitoring trust through trust signals, telemetry, and trust metrics.
 
-A structured model for evaluating trust in autonomous systems.
+### Agent Governance
 
-## Trust Impact
+Governance structures designed for autonomous AI agents.
 
-A new risk dimension incorporated into risk assessment.
+### Trust Metrics
 
-## Decision Security
+Quantitative mechanisms for measuring trustworthiness.
 
-A proposed discipline focused on protecting autonomous decisions.
+### Trust Maturity Model
 
-## Trust Observability
-
-A framework for monitoring trust degradation.
-
-## Agent Governance
-
-Governance mechanisms for autonomous AI agents.
-
-## AI Assurance
-
-Evidence-based validation of trustworthy autonomy.
+Capability assessment focused on organizational trust readiness.
 
 ---
 
-# Research Roadmap
+## Case Studies
 
-Current research areas include:  
-![Research Roadmap](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram-08.png)  
+### Enterprise Financial Advisory Agent
 
-Future phases will explore:
+Assessment of an autonomous financial decision support agent.
 
-* Trust Metrics
-* Trust Operations Centers
-* Trust Telemetry
-* Autonomous Enterprise Trust Models
-* Trust Certification Frameworks
+Focus Areas:
 
-See:
+* Decision Trust
+* Governance Trust
+* Decision Integrity
 
-```text
-research/roadmap.md
-```
+---
+
+### Autonomous SOC Agent
+
+Assessment of an AI-enabled Security Operations Center environment.
+
+Focus Areas:
+
+* Operational Trust
+* Identity Trust
+* Agent Governance
 
 ---
 
@@ -227,244 +175,146 @@ research/roadmap.md
 ```text
 trust-centric-threat-modeling/
 
-├── README.md
-│
 ├── docs/
-│   ├── index.md
-│   ├── overview.md
-│   ├── framework.md
-│   ├── methodology.md
-│   ├── trust-domains.md
-│   ├── threat-taxonomy.md
-│   ├── trust-risk-matrix.md
-│   ├── maturity-model.md
-│   ├── case-studies.md
-│   ├── research.md
-│   └── roadmap.md
-│
 ├── framework/
-│   ├── trust-domains.md
-│   ├── threat-taxonomy.md
-│   ├── trust-risk-matrix.md
-│   ├── trust-controls.md
-│   ├── trust-metrics.md
-│   ├── maturity-model.md
-│   └── tctm-methodology.md
-│
 ├── templates/
-│   ├── tctm-canvas.md
-│   ├── tctm-assessment-template.md
-│   ├── trust-risk-register-template.md
-│   ├── trust-maturity-assessment-template.md
-│   └── trust-observability-template.md
-│
 ├── examples/
-│   └── complete-tctm-assessment.md
-│
 ├── case-studies/
-│   ├── enterprise-financial-agent.md
-│   └── autonomous-soc-agent.md
-│
 ├── papers/
-│   ├── README.md
-│   ├── tctm-foundation-paper.md
-│   ├── decision-security-paper.md
-│   ├── trust-observability-paper.md
-│   └── agent-governance-paper.md
-│
 ├── research/
-│   ├── literature-review.md
-│   ├── comparative-analysis.md
-│   ├── contributions.md
-│   └── roadmap.md
-│
 ├── research-notes/
-│   ├── 01-trust-engineering.md
-│   ├── 02-decision-security.md
-│   ├── 03-trust-observability.md
-│   ├── 04-agent-governance.md
-│   └── 05-ai-assurance-models.md
-│
 ├── presentations/
-│   ├── README.md
-│   ├── tctm-executive-overview.pdf
-│   └── tctm-executive-overview.pptx
-│
 ├── diagrams/
-│   ├── tctm-architecture.png
-│   ├── trust-domains-model.png
-│   ├── trust-risk-assessment-process.png
-│   ├── trust-maturity-model.png
-│   ├── decision-security-model.png
-│   ├── trust-observability-architecture.png
-│   └── agent-governance-architecture.png
-│
 ├── references/
-│   └── bibliography.md
-│
 └── whitepaper/
-    └── trust-centric-threat-modeling-framework.md
 ```
+
+---
+
 ## Repository Components
 
-| Directory      | Purpose                                                             |
-| -------------- | ------------------------------------------------------------------- |
-| docs           | GitHub Pages documentation site                                     |
-| framework      | Core TCTM methodology and assessment components                     |
-| templates      | Reusable assessment and governance templates                        |
-| examples       | End-to-end TCTM assessment examples                                 |
-| case-studies   | Real-world application scenarios                                    |
-| papers         | Academic and publication-oriented research papers                   |
-| research       | Literature reviews, comparative studies, and research contributions |
-| research-notes | Exploratory concepts and future research directions                 |
-| presentations  | Executive and conference presentations                              |
-| diagrams       | Framework and architecture visualizations                           |
-| references     | Bibliography and supporting sources                                 |
-| whitepaper     | Complete TCTM white paper                                           |
+| Directory      | Purpose                                   |
+| -------------- | ----------------------------------------- |
+| docs           | GitHub Pages documentation                |
+| framework      | Core framework components                 |
+| templates      | Assessment templates and canvases         |
+| examples       | Complete assessment examples              |
+| case-studies   | Practical applications                    |
+| papers         | Academic papers                           |
+| research       | Literature reviews and research artifacts |
+| research-notes | Exploratory concepts                      |
+| presentations  | Executive presentations                   |
+| diagrams       | Visual framework assets                   |
+| references     | Supporting bibliography                   |
+| whitepaper     | Complete framework document               |
 
-``
-## Project Artifacts
+---
 
-### Framework
+## Academic Research
 
-* Trust Domains
-* Threat Taxonomy
-* Trust Risk Matrix
-* Trust Controls
-* Trust Metrics
-* Trust Maturity Model
-* TCTM Assessment Methodology
+### Foundation Paper
 
-### Research
+Trust-Centric Threat Modeling for Autonomous AI Systems
 
-* Literature Review
-* Comparative Analysis
-* Research Contributions
-* Future Research Roadmap
+### Research Papers
 
-### Academic Papers
-
-* Trust-Centric Threat Modeling for Autonomous AI Systems
 * Decision Security
 * Trust Observability
 * Agent Governance
 
-### Practical Resources
+### Research Areas
 
-* TCTM Canvas
-* Assessment Templates
-* Complete Assessment Example
-* Executive Presentation
-* Case Studies
-
-
----
-
-# Alignment with Existing Frameworks
-
-TCTM complements existing industry standards and research initiatives.
-
-| Framework        | Focus                  |
-| ---------------- | ---------------------- |
-| NIST CSF         | Cybersecurity          |
-| NIST AI RMF      | AI Risk Management     |
-| ISO/IEC 42001    | AI Governance          |
-| MITRE ATLAS      | AI Threat Modeling     |
-| OWASP LLM Top 10 | LLM Security           |
-| TCTM             | Trust in Autonomous AI |
-
----
-
-# Target Research Areas
-
-This project operates at the intersection of:
-
-* Cybersecurity
-* AI Security
-* AI Governance
-* Trustworthy AI
-* Autonomous Systems
-* Risk Management
-* Digital Trust
-* Agentic AI
-* Governance, Risk and Compliance (GRC)
-
----
-
-# Long-Term Vision
-
-The long-term vision of TCTM is to contribute to the development of methodologies that enable organizations to safely deploy autonomous AI systems while preserving trust, accountability, governance, and resilience.
-
-The framework seeks to establish trust as a measurable organizational capability rather than an abstract concept.
-
----
-## Quick Access
-
-| Section | Link |
-|--------|------|
-| Trust Domains | [framework/trust-domains.md](framework/trust-domains.md) |
-| Threat Taxonomy | [framework/threat-taxonomy.md](framework/threat-taxonomy.md) |
-| Trust Risk Matrix | [framework/trust-risk-matrix.md](framework/trust-risk-matrix.md) |
-| Trust Maturity Model | [framework/maturity-model.md](framework/maturity-model.md) |
-| Enterprise Financial AI Agent | [case-studies/enterprise-financial-agent.md](case-studies/enterprise-financial-agent.md) |
-| Autonomous Security Operations Agent | [case-studies/autonomous-security-agent.md](case-studies/autonomous-security-agent.md) |
-| Research Roadmap | [research/roadmap.md](research/roadmap.md) |
-| References | [references/references.md](references/references.md) |
-
----
-# Presentations
-
-This directory contains executive and research presentations related to the Trust-Centric Threat Modeling Framework (TCTM).
-
-## Available Presentations
-
-### TCTM Executive Overview
-
-Executive presentation introducing:
-
-- Trust Domains
-- Threat Taxonomy
-- Trust Risk Matrix
-- Trust Metrics
-- Trust Maturity Model
-- Research Contributions
-- Future Research Directions
-
-Files:
-
-- tctm-executive-overview.pdf
-- tctm-executive-overview.pptx
-
----
-## Assessment Examples
-
-- [Complete TCTM Assessment](examples/complete-tctm-assessment.md)
-
----
-# Author
-
-## Tharcilia Rollemberg
-
-Cybersecurity | AI Governance | Digital Trust | Product Security
-
-Research Interests:
-
-* Autonomous AI Systems
-* AI Governance
-* AI Security
+* Trust Engineering
 * Decision Security
-* Digital Trust
-* Cybersecurity Strategy
-* Governance, Risk and Compliance (GRC)
+* Trust Observability
+* Agent Governance
+* AI Assurance
 
 ---
 
-# Research Proposition
+## Alignment with Existing Frameworks
 
-> The next evolution of cybersecurity will not be defined solely by protecting systems. It will be defined by protecting trust in autonomous decision-making systems.
+| Framework        | Primary Focus                  |
+| ---------------- | ------------------------------ |
+| STRIDE           | Technical Threat Modeling      |
+| PASTA            | Risk-Centric Threat Modeling   |
+| MITRE ATLAS      | AI Adversary Modeling          |
+| OWASP LLM Top 10 | LLM Security Risks             |
+| NIST AI RMF      | AI Risk Management             |
+| ISO/IEC 42001    | AI Governance                  |
+| TCTM             | Trust in Autonomous AI Systems |
 
 ---
 
-# License
+## Research Roadmap
 
-This project is released for research, educational, and non-commercial purposes.
+### Phase 1 — Foundation
+
+* Trust Domains
+* Threat Taxonomy
+* Trust Risk Matrix
+* White Paper
+
+### Phase 2 — Trust Metrics
+
+* Trust Measurement
+* Trust KPIs
+* Trust Scoring
+
+### Phase 3 — Trust Observability
+
+* Trust Telemetry
+* Trust Dashboards
+* Trust Analytics
+
+### Phase 4 — Decision Security
+
+* Decision Integrity
+* Decision Assurance
+* Decision Governance
+
+### Phase 5 — Agent Governance
+
+* Agent Accountability
+* Authority Models
+* Governance Structures
+
+### Phase 6 — AI Assurance
+
+* Trust Validation
+* Assurance Models
+* Continuous Assurance
+
+### Phase 7 — Autonomous Enterprise Trust
+
+* Trust Operations
+* Enterprise Trust Architecture
+* Strategic Trust Governance
+
+---
+
+## References
+
+Key frameworks and standards referenced throughout this research:
+
+* NIST AI Risk Management Framework (AI RMF)
+* ISO/IEC 42001
+* MITRE ATLAS
+* OWASP LLM Top 10
+* OECD AI Principles
+* European Commission Trustworthy AI Guidelines
+
+---
+
+## Author
+
+Tharcilia Rollemberg
+
+Cybersecurity | AI Governance | Digital Trust
+
+---
+
+## License
+
+This project is released under the MIT License.
+
