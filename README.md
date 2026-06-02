@@ -222,20 +222,141 @@ research/roadmap.md
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```text
 trust-centric-threat-modeling/
 
+├── README.md
+│
+├── docs/
+│   ├── index.md
+│   ├── overview.md
+│   ├── framework.md
+│   ├── methodology.md
+│   ├── trust-domains.md
+│   ├── threat-taxonomy.md
+│   ├── trust-risk-matrix.md
+│   ├── maturity-model.md
+│   ├── case-studies.md
+│   ├── research.md
+│   └── roadmap.md
+│
 ├── framework/
-├── whitepaper/
+│   ├── trust-domains.md
+│   ├── threat-taxonomy.md
+│   ├── trust-risk-matrix.md
+│   ├── trust-controls.md
+│   ├── trust-metrics.md
+│   ├── maturity-model.md
+│   └── tctm-methodology.md
+│
+├── templates/
+│   ├── tctm-canvas.md
+│   ├── tctm-assessment-template.md
+│   ├── trust-risk-register-template.md
+│   ├── trust-maturity-assessment-template.md
+│   └── trust-observability-template.md
+│
+├── examples/
+│   └── complete-tctm-assessment.md
+│
 ├── case-studies/
+│   ├── enterprise-financial-agent.md
+│   └── autonomous-soc-agent.md
+│
+├── papers/
+│   ├── README.md
+│   ├── tctm-foundation-paper.md
+│   ├── decision-security-paper.md
+│   ├── trust-observability-paper.md
+│   └── agent-governance-paper.md
+│
 ├── research/
+│   ├── literature-review.md
+│   ├── comparative-analysis.md
+│   ├── contributions.md
+│   └── roadmap.md
+│
 ├── research-notes/
-├── references/
+│   ├── 01-trust-engineering.md
+│   ├── 02-decision-security.md
+│   ├── 03-trust-observability.md
+│   ├── 04-agent-governance.md
+│   └── 05-ai-assurance-models.md
+│
+├── presentations/
+│   ├── README.md
+│   ├── tctm-executive-overview.pdf
+│   └── tctm-executive-overview.pptx
+│
 ├── diagrams/
-└── docs/
+│   ├── tctm-architecture.png
+│   ├── trust-domains-model.png
+│   ├── trust-risk-assessment-process.png
+│   ├── trust-maturity-model.png
+│   ├── decision-security-model.png
+│   ├── trust-observability-architecture.png
+│   └── agent-governance-architecture.png
+│
+├── references/
+│   └── bibliography.md
+│
+└── whitepaper/
+    └── trust-centric-threat-modeling-framework.md
 ```
+## Repository Components
+
+| Directory      | Purpose                                                             |
+| -------------- | ------------------------------------------------------------------- |
+| docs           | GitHub Pages documentation site                                     |
+| framework      | Core TCTM methodology and assessment components                     |
+| templates      | Reusable assessment and governance templates                        |
+| examples       | End-to-end TCTM assessment examples                                 |
+| case-studies   | Real-world application scenarios                                    |
+| papers         | Academic and publication-oriented research papers                   |
+| research       | Literature reviews, comparative studies, and research contributions |
+| research-notes | Exploratory concepts and future research directions                 |
+| presentations  | Executive and conference presentations                              |
+| diagrams       | Framework and architecture visualizations                           |
+| references     | Bibliography and supporting sources                                 |
+| whitepaper     | Complete TCTM white paper                                           |
+
+``
+## Project Artifacts
+
+### Framework
+
+* Trust Domains
+* Threat Taxonomy
+* Trust Risk Matrix
+* Trust Controls
+* Trust Metrics
+* Trust Maturity Model
+* TCTM Assessment Methodology
+
+### Research
+
+* Literature Review
+* Comparative Analysis
+* Research Contributions
+* Future Research Roadmap
+
+### Academic Papers
+
+* Trust-Centric Threat Modeling for Autonomous AI Systems
+* Decision Security
+* Trust Observability
+* Agent Governance
+
+### Practical Resources
+
+* TCTM Canvas
+* Assessment Templates
+* Complete Assessment Example
+* Executive Presentation
+* Case Studies
+
 
 ---
 
