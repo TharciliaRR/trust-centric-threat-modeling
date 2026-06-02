@@ -305,6 +305,7 @@ Key frameworks and standards referenced throughout this research:
 * European Commission Trustworthy AI Guidelines
 
 ---
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg)](https://doi.org/10.5281/zenodo.20511968)  
 
 ## Author
 
