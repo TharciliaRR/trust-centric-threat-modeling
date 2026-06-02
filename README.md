@@ -136,15 +136,8 @@ This introduces trust degradation as a measurable risk factor.
 
 ## Trust Maturity Model
 
-TCTM defines five maturity levels.
-
-| Level   | Description              |
-| ------- | ------------------------ |
-| Level 1 | Experimental             |
-| Level 2 | Controlled               |
-| Level 3 | Governed                 |
-| Level 4 | Resilient                |
-| Level 5 | Trust-Centric Enterprise |
+TCTM defines five maturity levels.  
+![Trust Maturity Model](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%2007.png)
 
 ---
 
