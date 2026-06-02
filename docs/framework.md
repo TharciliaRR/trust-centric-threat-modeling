@@ -2,19 +2,7 @@
 
 The framework consists of six components:
 
-```text
-Trust Domains
-       ↓
-Threat Taxonomy
-       ↓
-Trust Risk Matrix
-       ↓
-Trust Metrics
-       ↓
-Trust Controls
-       ↓
-Trust Maturity Model
-```
+![TCTM Framework](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%2001.png)
 
 Together these components provide a structured methodology for evaluating trust-related risks in autonomous AI systems.
 
