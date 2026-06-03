@@ -334,21 +334,9 @@ This highlights the importance of trust-oriented analysis.
 ## 6.10 Taxonomy Application Workflow 
 
 Organizations should apply the taxonomy through the following process:  
-```text
-Identify Agent
-       ↓
-Identify Trust Domains
-       ↓
-Map Threat Categories
-       ↓
-Assess Trust Impact
-       ↓
-Calculate Risk
-       ↓
-Apply Controls
-       ↓
-Monitor Continuously
-```
+
+![Taxonomy Application Workflow.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%206.10.png)  
+
 This workflow creates a repeatable methodology for trust-centric threat assessments.
 
 ## 6.11 Chapter Conclusion  
