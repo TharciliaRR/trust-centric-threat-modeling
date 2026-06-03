@@ -1,8 +1,8 @@
-# Trust-Centric Threat Modeling for Autonomous AI Agents
-A Framework for Evaluating Security, Governance and Decision Integrity in Enterprise Agentic AI Systems
-White Paper v1.0
-Author: Tharcilia Rollemberg
-Research Domain: Cybersecurity, AI Governance, Digital Trust, Autonomous Systems
+# Trust-Centric Threat Modeling for Autonomous AI Agents  
+A Framework for Evaluating Security, Governance and Decision Integrity in Enterprise Agentic AI Systems  
+White Paper v1.0  
+Author: Tharcilia Rollemberg  
+Research Domain: Cybersecurity, AI Governance, Digital Trust, Autonomous Systems  
 
 # Executive Summary
 The rapid adoption of Autonomous AI Agents is fundamentally transforming enterprise operations. Unlike traditional software systems, autonomous agents possess the ability to perceive context, reason over information, interact with multiple systems, and execute actions with varying degrees of independence.
