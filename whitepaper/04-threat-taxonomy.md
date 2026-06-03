@@ -179,7 +179,6 @@ Organizations must protect confidence in decisions.
 This paper proposes that trust should be considered a strategic extension of traditional security objectives.
 
 The evolution may be represented as follows:
-## STRIDE Threat Categories
 
 | Traditional Security | Trust-Centric Security |
 |-----------|-----------|
