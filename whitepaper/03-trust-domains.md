@@ -264,7 +264,7 @@ Organizations must continue evaluating:
 - integrity;
 -availability;
 - adversarial attacks.
-- 
+  
 However, they must also assess:
 
 - trust;
