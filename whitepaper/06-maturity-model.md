@@ -23,14 +23,15 @@ Each family corresponds to one or more Trust Domains and represents a distinct m
 
 ## 6.2 Taxonomy Structure
 Each threat is identified using the following format:
-```text
-<Category>-<Threat ID>
-Example:
-TMT-01
-Where:
+**<Category>-<Threat ID>**  
+
+**Example:**  
+TMT-01  
+
+**Where:**  
 TMT = Trust Manipulation Threat
 01 = Unique threat identifier
-```
+
 ### Threat Classification Model
 Each threat contains:
 | Attribute | Description |
