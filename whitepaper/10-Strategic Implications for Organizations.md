@@ -103,7 +103,7 @@ Boards increasingly face questions such as:
 - Who is accountable for autonomous outcomes?
 - How do we measure AI-related risk?
 - How do we demonstrate compliance?
-- 
+
 These questions extend beyond technology.  
 They affect:
 - strategy;
