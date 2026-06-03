@@ -196,7 +196,7 @@ In the age of autonomous AI, an equally important question emerges:
   
 This distinction is critical.
 
-An organization may successfully protect infrastructure, secure data, and prevent unauthorized access while still experiencing significant harm due to poor, manipulated, or misaligned autonomous decisions.
+An organization may successfully protect infrastructure, secure data, and prevent unauthorized access while still experiencing significant harm due to poor, manipulated, or misaligned autonomous decisions.  
 Consequently, cybersecurity must evolve beyond traditional protection objectives.
 
 The next generation of security frameworks must incorporate:
