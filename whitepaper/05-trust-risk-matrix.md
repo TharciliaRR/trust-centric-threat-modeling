@@ -225,25 +225,9 @@ Threats rarely remain confined to a single domain
 
 Consider the following example:
 
-```text
-Step 1
-Prompt Injection occurs.
-(Context Trust)
-↓
-Step 2
-The agent interprets manipulated instructions.
-(Decision Trust)
-↓
-Step 3
-An unauthorized action is executed.
-(Operational Trust)
-↓
-Step 4
-No audit trail exists.
-(Governance Trust)
-↓
-Result
-Organizational trust is compromised.
+![Flow Across Trust Domains.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%2020.png)
+
+
 This illustrates how trust-related failures propagate across domains.
 ```
 
