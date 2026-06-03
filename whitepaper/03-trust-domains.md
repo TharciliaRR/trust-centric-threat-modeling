@@ -177,7 +177,7 @@ This represents a major step forward in securing AI-enabled applications.
 
 ### Strengths
 
-OWASP successfully highlights several threats highly relevant to autonomous agents.
+OWASP successfully highlights several threats highly relevant to autonomous agents.  
 Notably:
 
 **Prompt Injection**  
