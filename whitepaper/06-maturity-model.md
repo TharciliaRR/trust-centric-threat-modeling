@@ -164,7 +164,7 @@ An AI legal assistant references nonexistent regulations.
 
 **Impacted Domains**  
 - Decision Trust
-- 
+  
 **Trust Impact**  
 5 (Critical)  
 
