@@ -19,11 +19,11 @@ This creates a significant challenge.
 
 As autonomy increases, organizational risk shifts from purely technical concerns toward trust-related concerns, including:
 
-- decision integrity;
-- governance effectiveness;
-- accountability;
-- transparency;
-- resilience.
+- decision integrity;  
+- governance effectiveness;  
+- accountability;  
+- transparency;  
+- resilience.  
   
 To address this challenge, the TCTM introduces the Trust Maturity Model (TMM).
 
@@ -296,7 +296,8 @@ Evaluates:
 - auditability.
 
 ### Operational Trust Capability
-Evaluates:
+Evaluates:  
+
 - monitoring;
 - resilience;
 - recovery.
