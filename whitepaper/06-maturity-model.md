@@ -259,7 +259,7 @@ Failure of one agent propagates through multiple connected agents.
 **Example**  
 A compromised planning agent influences downstream execution agents.  
 
-**Trust Impact**
+**Trust Impact**  
 5 (Critical)  
 
 ## 6.7 Category E — Trust Erosion Threats (TET)  
