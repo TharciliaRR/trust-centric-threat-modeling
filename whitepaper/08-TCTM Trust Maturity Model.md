@@ -131,11 +131,11 @@ Organizations rely heavily on vendor assurances and technical performance metric
 
 ### Characteristics
 
-Organizations begin implementing foundational controls
+Organizations begin implementing foundational controls.  
 
-AI initiatives move beyond experimentation.
+AI initiatives move beyond experimentation.  
 
-Basic governance practices emerge.
+Basic governance practices emerge.  
 
 ### Capabilities
 - access controls;
@@ -144,8 +144,8 @@ Basic governance practices emerge.
 - policy documentation.
 
 ### Trust Profile
-Trust is partially controlled.
-The organization begins validating behavior but lacks comprehensive visibility.
+Trust is partially controlled.  
+The organization begins validating behavior but lacks comprehensive visibility.  
 
 ### Common Risks
 - inconsistent governance;
@@ -153,7 +153,7 @@ The organization begins validating behavior but lacks comprehensive visibility.
 - limited observability.
 
 ### Typical Statement
-"We have controls, but they are not yet standardized."
+"We have controls, but they are not yet standardized."  
 
 ## Maturity Indicators
 
@@ -168,8 +168,8 @@ The organization begins validating behavior but lacks comprehensive visibility.
 ## 8.7 Level 3 — Governed
 
 ### Characteristics
-Trust becomes an explicit governance objective.
-Organizations establish formal structures to oversee autonomous systems.
+Trust becomes an explicit governance objective.  
+Organizations establish formal structures to oversee autonomous systems.  
 
 ### Capabilities
 - AI governance boards;
@@ -177,9 +177,9 @@ Organizations establish formal structures to oversee autonomous systems.
 - human oversight procedures;
 - audit mechanisms.
 
-### Trust Profile
-Trust is actively managed.
-Decision-making processes become traceable.
+### Trust Profile  
+Trust is actively managed.  
+Decision-making processes become traceable.  
 
 ### Common Practices
 - risk assessments;
@@ -202,8 +202,8 @@ Decision-making processes become traceable.
 
 ## 8.8 Level 4 — Resilient
 ### Characteristics
-Organizations develop the ability to detect and respond to trust degradation.
-Trust becomes continuously monitored.
+Organizations develop the ability to detect and respond to trust degradation.  
+Trust becomes continuously monitored.  
 
 ### Capabilities
 - trust observability;
@@ -211,11 +211,11 @@ Trust becomes continuously monitored.
 - continuous assurance;
 - resilience testing.
 
-### Trust Profile
-Trust is continuously validated.
-Organizations proactively identify risks before incidents occur.
+### Trust Profile  
+Trust is continuously validated.  
+Organizations proactively identify risks before incidents occur.  
 
-### Common Practices
+### Common Practices  
 red teaming;
 adversarial testing;
 trust monitoring dashboards;
