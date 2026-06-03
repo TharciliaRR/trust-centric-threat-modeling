@@ -152,7 +152,7 @@ The framework promotes:
 - accountability;
 - risk management;
 - continuous improvement.
-- 
+  
 TCTM complements ISO/IEC 42001 by introducing trust-specific evaluation mechanisms.
 
 ### European Union AI Act
@@ -162,27 +162,27 @@ Organizations deploying high-risk AI systems must demonstrate:
 - transparency;
 - accountability;
 - risk management.
-- 
-Trust assessments produced through TCTM may provide valuable evidence supporting compliance efforts.
+  
+Trust assessments produced through TCTM may provide valuable evidence supporting compliance efforts.  
 
 ### DORA
-The Digital Operational Resilience Act emphasizes operational resilience within financial institutions.
-As financial organizations increasingly deploy autonomous agents, trust resilience becomes closely linked to operational resilience.
+The Digital Operational Resilience Act emphasizes operational resilience within financial institutions. 
+As financial organizations increasingly deploy autonomous agents, trust resilience becomes closely linked to operational resilience.  
 
 ### NIS2 Directive
-The NIS2 Directive highlights governance accountability and risk management responsibilities.
-Trust-related risks identified through TCTM may support broader organizational resilience initiatives.
+The NIS2 Directive highlights governance accountability and risk management responsibilities.  
+Trust-related risks identified through TCTM may support broader organizational resilience initiatives.  
 
 ## 10.6 The Emergence of AI Assurance
-Cybersecurity gave rise to assurance disciplines focused on validating security controls.
-A similar trend is emerging in artificial intelligence.
-Organizations increasingly require evidence that AI systems are:
+Cybersecurity gave rise to assurance disciplines focused on validating security controls.  
+A similar trend is emerging in artificial intelligence.  
+Organizations increasingly require evidence that AI systems are:  
 - safe;
 - reliable;
 - explainable;
 - governed;
 - trustworthy.
-- 
+  
 This emerging discipline is often referred to as:  
 
 ### AI Assurance
@@ -194,7 +194,7 @@ The TCTM framework contributes to AI Assurance by providing:
 - maturity assessments;
 - trust-oriented risk analysis;
 - governance evaluation mechanisms.
-- 
+  
 This capability may become increasingly valuable as regulators and stakeholders demand greater transparency.
 
 ## 10.7 Trust as a Competitive Differentiator
@@ -203,7 +203,7 @@ Historically, organizations competed through:
 - scale;
 - efficiency;
 - customer experience.
-- 
+  
 In the era of autonomous systems, a new differentiator may emerge:
 
 ## Trustworthiness
