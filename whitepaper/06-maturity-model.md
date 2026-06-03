@@ -128,13 +128,14 @@ If decision integrity deteriorates, organizational trust collapses.
 ### DIT-01 — Goal Misalignment  
 
 **Description**  
+The agent optimizes behavior that diverges from intended organizational objectives.    
 
-The agent optimizes behavior that diverges from intended organizational objectives.  
 **Example**  
 A customer service agent prioritizes rapid ticket closure rather than customer satisfaction.  
 
 **Impacted Domains**  
 Decision Trust  
+
 **Trust Impact**  
 5 (Critical)
 
