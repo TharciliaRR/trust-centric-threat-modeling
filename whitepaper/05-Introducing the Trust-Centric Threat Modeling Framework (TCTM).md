@@ -9,11 +9,11 @@ Autonomous agents challenge these assumptions.
 
 They continuously: 
 
-● interpret context;
-● make decisions;
-● execute actions;
-● interact with external systems;
-● influence business outcomes.
+- interpret context;
+- make decisions;
+- execute actions;
+- interact with external systems;
+- influence business outcomes.
 
 As a result, organizations must assess not only whether systems are secure but whether their autonomous behavior remains trustworthy over time.  
 
@@ -41,10 +41,10 @@ In autonomous systems, decisions become high-value organizational assets.
 
 Poor decisions may produce:  
 
-● financial losses;
-● regulatory violations;
-● reputational damage;
-● operational disruption.
+- financial losses;
+- regulatory violations;
+- reputational damage;
+- operational disruption.
 
 Consequently, decision integrity must be protected in the same way organizations protect sensitive data.  
 
@@ -54,10 +54,10 @@ Trust cannot be managed if it cannot be measured.
 
 Organizations require mechanisms to continuously assess:  
 
-● decision quality;
-● governance effectiveness;
-● operational resilience;
-● context reliability.
+- decision quality;
+- governance effectiveness;
+- operational resilience;
+- context reliability.
 
 ### Principle 4  
 **Governance Is Part of Security**  
@@ -65,10 +65,10 @@ Autonomous systems operate within organizational structures.
 
 Therefore:  
 
-● accountability;
-● oversight;
-● auditability;
-● compliance;
+- accountability;
+- oversight;
+- auditability;
+- compliance;
 
 must be treated as security considerations.  
 
@@ -104,17 +104,17 @@ Can we trust who is influencing the agent?
 
 **Evaluation Areas**  
 
-● Authentication
-● Authorization
-● Delegated permissions
-● Agent-to-agent identity
-● Third-party access  
+- Authentication
+- Authorization
+- Delegated permissions
+- Agent-to-agent identity
+- Third-party access  
 
 **Example Risks**  
 
-● Identity spoofing
-● Unauthorized interactions
-● Privilege abuse  
+- Identity spoofing
+- Unauthorized interactions
+- Privilege abuse  
 
 ### Domain 2 — Context Trust  
 
@@ -126,16 +126,16 @@ Can we trust the information used to make decisions?
 
 **Evaluation Areas**  
 
-● RAG repositories
-● Knowledge bases
-● External APIs
-● Memory systems
-● Data quality  
+- RAG repositories
+- Knowledge bases
+- External APIs
+- Memory systems
+-  Data quality  
 
 **Example Risks**
-● Prompt Injection
-● Context Poisoning
-● Data corruption
+- Prompt Injection
+- Context Poisoning
+-  Data corruption
 
 ### Domain 3 — Decision Trust  
 
@@ -147,17 +147,17 @@ Can we trust the decisions produced by the agent?
 
 **Evaluation Areas**  
 
-● Alignment
-● Consistency
-● Explainability
-● Predictability
-● Bias management  
+- Alignment
+- Consistency
+-  Explainability
+-   Predictability
+-    Bias management  
 
 **Example Risks**
 
-● Decision Drift
-● Hallucinated Actions
-● Goal Misalignment  
+- Decision Drift
+-  Hallucinated Actions
+-   Goal Misalignment  
 
 ### Domain 4 — Governance Trust  
 
@@ -169,16 +169,16 @@ Can we govern the agent effectively?
 
 **Evaluation Areas**  
 
-● Auditability
-● Accountability
-● Human oversight
-● Policy enforcement
-● Regulatory compliance  
+- Auditability
+- Accountability
+- Human oversight
+- Policy enforcement
+- Regulatory compliance  
 
 **Example Risks**
-● Untraceable actions
-● Lack of accountability
-● Governance failures  
+- Untraceable actions
+- Lack of accountability
+- Governance failures  
 
 ### Domain 5 — Operational Trust  
 
@@ -190,11 +190,11 @@ Can we trust the agent over time?
 
 **Evaluation Areas**
 
-● Monitoring
-● Resilience
-● Recovery
-● Adaptation
-● Continuous assurance
+- Monitoring
+- Resilience
+- Recovery
+- Adaptation
+- Continuous assurance
 
 **Example Risks**
 ● Agent degradation
