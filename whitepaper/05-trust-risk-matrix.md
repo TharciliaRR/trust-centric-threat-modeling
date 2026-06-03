@@ -94,9 +94,9 @@ TCTM therefore emphasizes continuous assessment rather than one-time validation.
 ## 5.3 TCTM Framework Architecture
 
 The TCTM framework consists of four interconnected layers.  
-```text
+
 ![TCTM Framework.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%2021.png)
-```   
+ 
 
 Each layer builds upon the previous one.
 
