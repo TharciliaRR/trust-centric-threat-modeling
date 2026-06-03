@@ -266,17 +266,7 @@ This domain focuses on maintaining confidence in the operational behavior of aut
 
 The five Trust Domains are interconnected.
 
-```text
-Identity Trust
-      ↓
-Context Trust
-      ↓
-Decision Trust
-      ↓
-Governance Trust
-      ↓
-Operational Trust
-```
+![Trust Domains.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%20F1.png)
 
 A weakness in one domain can negatively affect the others.
 
