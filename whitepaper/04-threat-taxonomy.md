@@ -252,8 +252,9 @@ However, organizations routinely measure complex concepts such as:
 
 - customer satisfaction;
 - operational risk;
-- organizational maturity.
-- Trust can be approached similarly.
+- organizational maturity.  
+
+Trust can be approached similarly.
   
 The TCTM framework proposes that trust can be evaluated through measurable domains, including:
 
