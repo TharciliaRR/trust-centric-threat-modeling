@@ -79,14 +79,11 @@ Maturity therefore represents an ongoing journey rather than a final destination
 
 ## 8.4 The Five Levels of Trust Maturity  
 
-The TCTM Trust Maturity Model consists of five progressive levels.
-```text
-Level 1 → Experimental
-Level 2 → Controlled
-Level 3 → Governed
-Level 4 → Resilient
-Level 5 → Trust-Centric
-```
+The TCTM Trust Maturity Model consists of five progressive levels.  
+
+![Five levels of Maturity.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%208.4.png)  
+
+
 Each level represents increasing organizational capability.
 
 ## 8.5 Level 1 — Experimental
