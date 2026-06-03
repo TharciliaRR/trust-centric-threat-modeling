@@ -8,17 +8,7 @@ However, autonomous AI systems introduce new challenges that extend beyond tradi
 
 To address these challenges, the Trust-Centric Threat Modeling Framework (TCTM) introduces five Trust Domains that collectively define the trustworthiness of autonomous AI systems.
 
-```text
-Identity Trust
-      ↓
-Context Trust
-      ↓
-Decision Trust
-      ↓
-Governance Trust
-      ↓
-Operational Trust
-```
+![Framework Trust Domains.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%20F1.png)
 
 Each domain represents a critical dimension of trust that must be evaluated, monitored, and governed throughout the lifecycle of autonomous AI systems.
 
