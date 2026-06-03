@@ -190,31 +190,37 @@ These threats originate primarily from organizational weaknesses rather than tec
 **Why This Matters**  
 Many AI incidents occur because organizations fail to govern autonomous behavior appropriately.
 
-### GFT-01 — Lack of Human Oversight
-**Description**
-Autonomous actions occur without meaningful human review.
-**Trust Impact**
+### GFT-01 — Lack of Human Oversight  
+**Description**  
+Autonomous actions occur without meaningful human review.  
+
+**Trust Impact**  
 5 (Critical)  
 
-### GFT-02 — Missing Accountability  
+### GFT-02 — Missing Accountability   
 **Description**  
 No clear ownership exists for agent decisions.  
+
 **Example** 
 Multiple departments use an AI agent, but none assume responsibility for outcomes. 
+
 **Trust Impact** 
 4 (High)
 
 ### GFT-03 — Untraceable Decisions  
 **Description** 
 Decisions cannot be reconstructed or audited.  
+
 **Example**  
-An executive recommendation is generated without supporting evidence.
+An executive recommendation is generated without supporting evidence.  
+
 **Trust Impact**  
 5 (Critical)  
 
 ### GFT-04 — Policy Bypass  
 **Description**  
 Agent behavior circumvents established governance controls. 
+
 **Trust Impact**  
 4 (High)
 
@@ -224,29 +230,35 @@ Threats affecting the reliability and resilience of autonomous operations.
 
 ### OTT-01 — Agent Hijacking  
 **Description**  
-An attacker gains influence over agent behavior.  
+An attacker gains influence over agent behavior. 
+
 **Trust Impact**  
 5 (Critical)
 
 ### OTT-02 — Tool Abuse  
 **Description**  
 Misuse of integrated tools or APIs.  
+
 **Example**  
 An agent performs unauthorized actions through connected enterprise systems.  
+
 **Trust Impact**  
 5 (Critical)
 
 ### OTT-03 — Privilege Escalation  
 **Description**  
 An agent obtains permissions beyond its intended scope.  
+
 **Trust Impact**  
 5 (Critical)
 
 ### OTT-04 — Autonomous Cascade Failure  
 **Description**  
 Failure of one agent propagates through multiple connected agents.  
+
 **Example**  
 A compromised planning agent influences downstream execution agents.  
+
 **Trust Impact**
 5 (Critical)  
 
@@ -262,26 +274,31 @@ Trust is difficult to build and easy to lose.
 ### TET-01 — Inconsistent Decisions  
 **Description**  
 Similar situations produce materially different outcomes.  
+
 **Trust Impact**  
 4 (High)
 
 ### TET-02 — Opaque Reasoning  
 **Description**  
 Decision logic cannot be explained.  
+
 **Trust Impact**  
 4 (High)
 
 ### TET-03 — Loss of Predictability  
 **Description**  
 Stakeholders become unable to anticipate behavior.  
+
 **Trust Impact**  
 5 (Critical)
 
 ### TET-04 — Confidence Inflation  
 **Description**  
 The agent appears more reliable than it actually is.  
+
 **Example**  
 Users place excessive confidence in recommendations without verification.
+
 **Trust Impact**  
 5 (Critical)  
 
