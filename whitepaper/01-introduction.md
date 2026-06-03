@@ -75,3 +75,52 @@ By integrating cybersecurity principles with AI governance and digital trust con
 
 Ultimately, the future of cybersecurity may depend not only on securing systems—but on securing confidence in the decisions those systems make.
 
+## 1.1 Research Contributions  
+
+This research addresses an emerging gap in cybersecurity, AI governance, and digital trust by proposing a novel framework for evaluating trust-related risks in Autonomous AI Agents. While existing threat modeling methodologies primarily focus on protecting systems, data, and infrastructure, they provide limited mechanisms for assessing trustworthiness, decision integrity, governance effectiveness, and confidence in autonomous decision-making.  
+
+To address this challenge, this research makes the following contributions:  
+
+### Contribution 1 — Trust-Centric Threat Modeling Framework (TCTM)  
+
+This research introduces the Trust-Centric Threat Modeling Framework (TCTM), a novel threat modeling approach that extends traditional cybersecurity methodologies by treating trust as a measurable and governable security objective. The framework provides a structured methodology for identifying, assessing, and mitigating threats that compromise confidence in autonomous AI systems.  
+
+### Contribution 2 — Trust Domain Model  
+
+The research proposes a Trust Domain Model composed of five foundational dimensions of trust in autonomous systems: Identity Trust, Context Trust, Decision Trust, Governance Trust, and Operational Trust. These domains provide a systematic structure for evaluating trust-related risks across the lifecycle of autonomous AI agents.  
+
+## Contribution 3 — Trust-Oriented Threat Taxonomy  
+
+The study introduces a Trust-Oriented Threat Taxonomy specifically designed to classify threats that undermine trust, decision integrity, governance, and operational confidence. The taxonomy expands traditional threat modeling by incorporating categories such as Trust Manipulation, Decision Integrity Threats, Governance Failures, Operational Trust Threats, and Trust Erosion Threats.  
+
+## Contribution 4 — Trust Risk Matrix (TRM)  
+
+This research proposes the Trust Risk Matrix, an extension of conventional risk assessment models that incorporates Trust Impact as an independent risk variable. This contribution enables organizations to evaluate not only operational and financial consequences, but also the degradation of confidence in autonomous systems.  
+
+## Contribution 5 — Trust Maturity Model (TMM)  
+
+The research introduces a Trust Maturity Model that enables organizations to assess their capability to govern, monitor, and continuously maintain trustworthy autonomous AI systems. The model provides a five-level maturity structure ranging from Experimental to Trust-Centric organizations.  
+
+## Contribution 6 — Quantitative Trust Measurement Model (QTMM)  
+
+A major contribution of this work is the development of the Quantitative Trust Measurement Model (QTMM), a mathematical framework that transforms trust from a subjective concept into a measurable organizational capability. The QTMM introduces formal trust indices, scoring methodologies, normalization criteria, and trust aggregation mechanisms for autonomous AI systems.  
+
+## Contribution 7 — Decision Integrity Index (DII)  
+
+This research formally defines and operationalizes the Decision Integrity Index (DII), a quantitative metric designed to measure the alignment, consistency, explainability, predictability, traceability, and reliability of autonomous decisions. The DII represents the central scientific contribution of the framework and provides a mechanism for evaluating whether autonomous decisions can be trusted.  
+
+## Contribution 8 — Enterprise Trust Score (ETS)  
+
+The study proposes the Enterprise Trust Score (ETS), a composite trust metric that aggregates trust measurements across all Trust Domains. The ETS provides organizations with a standardized mechanism for assessing and communicating the overall trustworthiness of autonomous AI systems.  
+
+## Contribution 9 — Empirical and Statistical Validation Framework  
+
+To support scientific rigor and reproducibility, the research proposes a validation framework incorporating threat coverage analysis, inter-rater reliability testing, construct validity assessment, and statistical validation methods, including Cronbach's Alpha, Cohen's Kappa, and Confirmatory Factor Analysis.  
+
+## Contribution 10 — Multi-Agent Trust Extension  
+Finally, this research extends trust modeling beyond individual agents by introducing the concept of Inter-Agent Trust. This contribution establishes a foundation for future research into trust propagation, agent reputation, consensus manipulation, and cascading failures in multi-agent ecosystems.  
+
+Collectively, these contributions establish a comprehensive framework for measuring, governing, and protecting trust in autonomous AI systems, extending traditional cybersecurity practices into the emerging domain of enterprise agentic AI governance.  
+The primary scientific contribution of this research is the formalization of trust as a measurable, auditable, and governable construct through the Quantitative Trust Measurement Model (QTMM) and the Decision Integrity Index (DII), enabling trust to be evaluated with a level of rigor comparable to traditional security and risk management metrics.  
+
+
