@@ -108,12 +108,12 @@ The foundation of TCTM consists of five Trust Domains.
 
 These domains represent the primary areas that influence organizational trust in autonomous systems.
 
-### Domain 1 — Identity Trust
-**Definition**
-The degree to which the identities interacting with the agent can be verified and trusted.
-**Key Question**
-Can we trust who is influencing the agent?
-**Evaluation Areas**
+### Domain 1 — Identity Trust  
+**Definition**  
+The degree to which the identities interacting with the agent can be verified and trusted.  
+**Key Question**  
+Can we trust who is influencing the agent?  
+**Evaluation Areas**  
 - Authentication
 - Authorization
 - Delegated permissions
