@@ -122,7 +122,7 @@ Threats that affect the quality, reliability, consistency, and alignment of deci
 Unlike traditional attacks, these threats may occur without malicious actors.  
 
 **Why This Matters**  
-The primary value of autonomous agents lies in their decisions. 
+The primary value of autonomous agents lies in their decisions.   
 If decision integrity deteriorates, organizational trust collapses.  
 
 ### DIT-01 — Goal Misalignment  
