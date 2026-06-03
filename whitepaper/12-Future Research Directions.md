@@ -272,7 +272,7 @@ Human-AI Decision Collaboration may become one of the defining interdisciplinary
 
 The future of autonomous systems depends on more than technological advancement.
 It depends on society's ability to create systems that remain:  
-secure;
+- secure;
 - governable;
 - resilient;
 - accountable;
