@@ -198,21 +198,20 @@ A critical characteristic of trust-related failures is that they frequently mani
 
 Examples include:
 
-**Strategic Misalignment**
-An AI agent optimizes local objectives while undermining broader business goals.
+**Strategic Misalignment**  
+An AI agent optimizes local objectives while undermining broader business goals.  
 
-**Regulatory Exposure**
-An agent generates recommendations that violate regulatory requirements.
+**Regulatory Exposure**  
+An agent generates recommendations that violate regulatory requirements.  
 
-**Financial Loss**
-An agent executes actions based on flawed assumptions.
+**Financial Loss**  
+An agent executes actions based on flawed assumptions.  
 
-**Reputational Damage**
-Customers lose confidence in AI-driven interactions.
+**Reputational Damage**  
+Customers lose confidence in AI-driven interactions.  
 
-**Operational Disruption**
-
-Teams become unable to rely on autonomous systems.
+**Operational Disruption**  
+Teams become unable to rely on autonomous systems.  
 
 In many cases, these outcomes occur without any system compromise.
 
