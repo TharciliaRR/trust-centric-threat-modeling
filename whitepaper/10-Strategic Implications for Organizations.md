@@ -20,7 +20,7 @@ This distinction fundamentally alters the relationship between technology, gover
 
 As AI systems assume greater responsibility within enterprise environments, organizations must confront a new reality:
 
-       _Trust becomes a strategic dependency._
+_Trust becomes a strategic dependency._
 
 The ability to establish, maintain, and demonstrate trustworthiness may soon become as important as cybersecurity, compliance, or operational resilience.
 
