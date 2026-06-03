@@ -110,80 +110,95 @@ These domains represent the primary areas that influence organizational trust in
 
 ### Domain 1 — Identity Trust  
 **Definition**  
-The degree to which the identities interacting with the agent can be verified and trusted.  
+The degree to which the identities interacting with the agent can be verified and trusted. 
+
 **Key Question**  
 Can we trust who is influencing the agent?  
+
 **Evaluation Areas**  
 - Authentication
 - Authorization
 - Delegated permissions
 - Agent-to-agent identity
-- Third-party access
+- Third-party access  
+  
 **Example Risks**
 - Identity spoofing
 - Unauthorized interactions
-- Privilege abuse
+- Privilege abuse  
 
-### Domain 2 — Context Trust
-**Definition**
-The degree to which information used by the agent is reliable, accurate, and protected from manipulation.
-**Key Question**
-Can we trust the information used to make decisions?
-**Evaluation Areas**
+### Domain 2 — Context Trust  
+**Definition**   
+The degree to which information used by the agent is reliable, accurate, and protected from manipulation.  
+
+**Key Question**  
+Can we trust the information used to make decisions?  
+
+**Evaluation Areas**  
 - RAG repositories
 - Knowledge bases
 - External APIs
 - Memory systems
 - Data quality
-**Example Risks**
+  
+**Example Risks**  
 - Prompt Injection
 - Context Poisoning
 - Data corruption
 
-### Domain 3 — Decision Trust
-**Definition**
-The degree to which decisions remain aligned, predictable, explainable, and reliable.
-**Key Question**
-Can we trust the decisions produced by the agent?
-**Evaluation Areas**
+### Domain 3 — Decision Trust  
+**Definition**  
+The degree to which decisions remain aligned, predictable, explainable, and reliable.  
+
+**Key Question**  
+Can we trust the decisions produced by the agent?  
+
+**Evaluation Areas**  
 - Alignment
 - Consistency
 - Explainability
 - Predictability
 - Bias management
-**Example Risks**
+  
+**Example Risks**  
 - Decision Drift
 - Hallucinated Actions
 - Goal Misalignment
 
-### Domain 4 — Governance Trust
-**Definition**
-The degree to which autonomous behavior is governed through accountability and oversight.
-**Key Question**
-Can we govern the agent effectively?
-**Evaluation Areas**
+### Domain 4 — Governance Trust  
+**Definition**  
+The degree to which autonomous behavior is governed through accountability and oversight.  
+
+**Key Question**  
+Can we govern the agent effectively?  
+
+**Evaluation Areas**  
 - Auditability
 - Accountability
 - Human oversight
 - Policy enforcement
 - Regulatory compliance
-**Example Risks**
+  
+**Example Risks**  
 - Untraceable actions
 - Lack of accountability
 - Governance failures
 
-### Domain 5 — Operational Trust
-**Definition**
-The degree to which trustworthiness is maintained throughout the operational lifecycle.
-**Key Question**
-Can we trust the agent over time?
+### Domain 5 — Operational Trust  
+**Definition**  
+The degree to which trustworthiness is maintained throughout the operational lifecycle.  
+
+**Key Question**  
+Can we trust the agent over time?  
+
 **Evaluation Areas**
 - Monitoring
 - Resilience
 - Recovery
 - Adaptation
 - Continuous assurance
-**Example Risks**
+  
+**Example Risks**  
 - Agent degradation
 - Operational failures
 - Trust erosion
