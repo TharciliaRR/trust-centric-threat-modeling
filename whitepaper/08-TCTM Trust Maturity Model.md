@@ -236,8 +236,8 @@ automated controls.
 
 ## 8.9 Level 5 — Trust-Centric
 ### Characteristics
-Trust becomes embedded into organizational strategy.
-The organization operates under a trust-by-design philosophy.
+Trust becomes embedded into organizational strategy.  
+The organization operates under a trust-by-design philosophy.  
 
 ### Capabilities
 - Trust KPIs;
@@ -246,10 +246,10 @@ The organization operates under a trust-by-design philosophy.
 - Board-level trust governance.
 
 ### Trust Profile
-Trust is treated as a strategic asset.
-The organization can quantitatively demonstrate confidence in autonomous systems.
+Trust is treated as a strategic asset.  
+The organization can quantitatively demonstrate confidence in autonomous systems.  
 
-### Common Practices
+### Common Practices  
 - Trust Scorecards;
 - Executive Trust Reporting;
 - Continuous Assurance Programs;
@@ -269,7 +269,7 @@ The organization can quantitatively demonstrate confidence in autonomous systems
 
 
 ## 8.10 Trust Capability Dimensions
-Maturity is assessed across five dimensions aligned with the TCTM Trust Domains.
+Maturity is assessed across five dimensions aligned with the TCTM Trust Domains.  
 
 ### Identity Trust Capability
 Evaluates:
@@ -302,7 +302,7 @@ Evaluates:
 - recovery.
 
 ## 8.11 Trust Maturity Assessment Matrix
-Organizations may score each domain from 1 to 5.
+Organizations may score each domain from 1 to 5.  
 
 Example:
 
@@ -315,14 +315,16 @@ Example:
 | Operational Trust | 4 |
 
 **Average Score:**  
-3.2
+3.2  
+
 **Overall Maturity Level:**  
-Governed (Level 3)
+Governed (Level 3)  
+
 This provides a repeatable assessment methodology.
 
 ## 8.12 Trust KPIs
 
-The TMM introduces the concept of Trust Key Performance Indicators.
+The TMM introduces the concept of Trust Key Performance Indicators.  
 
 Examples include:
 
