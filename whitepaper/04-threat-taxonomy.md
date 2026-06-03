@@ -70,8 +70,7 @@ However, the same agent may:
 - rely on outdated information;
 - misinterpret strategic objectives;
 - amplify biases;
-  
-produce inconsistent decisions.
+- produce inconsistent decisions.
 
 The organization may suffer financial losses despite the absence of a traditional security incident.
 
