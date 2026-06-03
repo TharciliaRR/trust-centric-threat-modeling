@@ -14,13 +14,13 @@ Each domain represents a critical dimension of trust that must be evaluated, mon
 
 ---
 
-# Identity Trust
+# Identity Trust  
 
-## Definition
+## Definition  
 
-Identity Trust refers to the ability to verify, authenticate, and authorize all entities interacting with an autonomous AI system.
+Identity Trust refers to the ability to verify, authenticate, and authorize all entities interacting with an autonomous AI system.  
 
-These entities may include:
+These entities may include:  
 
 - Human users
 - AI agents
@@ -30,13 +30,11 @@ These entities may include:
 
 Identity Trust ensures that actions performed within the system can be attributed to legitimate and authorized actors.
 
----
 
 ## Core Question
 
 > Can we trust who is interacting with the autonomous system?
 
----
 
 ## Key Objectives
 
@@ -46,7 +44,6 @@ Identity Trust ensures that actions performed within the system can be attribute
 - Delegated authority management
 - Non-repudiation
 
----
 
 ## Example Threats
 
@@ -57,7 +54,7 @@ Identity Trust ensures that actions performed within the system can be attribute
 | Credential Theft | Compromise of authentication mechanisms |
 | Agent Impersonation | Fake autonomous agents acting as trusted entities |
 
----
+
 
 ## Example Controls
 
@@ -67,7 +64,7 @@ Identity Trust ensures that actions performed within the system can be attribute
 - Agent Authentication Certificates
 - Role-Based Access Control (RBAC)
 
----
+
 
 # Context Trust
 
