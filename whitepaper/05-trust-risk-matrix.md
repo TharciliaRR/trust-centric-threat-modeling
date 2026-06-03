@@ -219,32 +219,23 @@ Trust therefore becomes a systemic property rather than an isolated control.
 
 This perspective distinguishes TCTM from traditional threat modeling methodologies.
 
-## 5.6 Threat Flow Across Trust Domains
+## 5.6 Threat Flow Across Trust Domains  
 
-Threats rarely remain confined to a single domain
+Threats rarely remain confined to a single domain  
 
-Consider the following example:
+Consider the following example:  
 
-![Flow Across Trust Domains.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%2020.png)
+![Flow Across Trust Domains.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%2020..png)
 
 
-This illustrates how trust-related failures propagate across domains.
-```
+This illustrates how trust-related failures propagate across domains.  
 
-## 5.7 Trust-Centric Security Lifecycle
-TCTM proposes a continuous lifecycle.
 
-```text
-Identify
-   ↓
-Assess
-   ↓
-Govern
-   ↓
-Monitor
-   ↓
-Improve
-```
+## 5.7 Trust-Centric Security Lifecycle  
+TCTM proposes a continuous lifecycle.  
+
+![Trust Centric Security Lifecycle.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%205.7..png)  
+
 Organizations should continuously:
 
 **Identify**  
