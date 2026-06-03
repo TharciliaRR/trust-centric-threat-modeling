@@ -23,7 +23,9 @@ Each family corresponds to one or more Trust Domains and represents a distinct m
 
 ## 6.2 Taxonomy Structure
 Each threat is identified using the following format:
-**<Category>-<Threat ID>**  
+```
+<Category>-<Threat ID>  
+```
 
 **Example:**  
 TMT-01  
