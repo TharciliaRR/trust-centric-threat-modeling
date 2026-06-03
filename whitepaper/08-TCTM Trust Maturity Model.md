@@ -39,6 +39,7 @@ Traditional cybersecurity maturity models evaluate:
 - compliance capabilities;
 - governance processes;
 - operational resilience.
+  
 These models remain highly valuable.
 
 However, they were not designed for environments where software systems actively participate in decision-making.
