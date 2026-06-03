@@ -164,6 +164,7 @@ An AI legal assistant references nonexistent regulations.
 
 **Impacted Domains**  
 - Decision Trust
+- 
 **Trust Impact**  
 5 (Critical)  
 
@@ -173,7 +174,8 @@ An AI legal assistant references nonexistent regulations.
 Autonomous behavior unintentionally magnifies existing organizational risks.  
 
 **Example**  
-An agent repeatedly recommends increasingly aggressive financial strategies.  
+An agent repeatedly recommends increasingly aggressive financial strategies. 
+
 **Trust Impact**  
 4 (High)
 
