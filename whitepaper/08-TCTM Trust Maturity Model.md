@@ -72,7 +72,7 @@ Organizations cannot manage what they do not measure.
 **Trust Must Be Auditable**  
 Decisions must remain traceable and explainable.  
 
-## Principle 4  
+### Principle 4  
 **Trust Must Be Continuously Maintained**  
 Trust is dynamic rather than static.  
 Maturity therefore represents an ongoing journey rather than a final destination.  
