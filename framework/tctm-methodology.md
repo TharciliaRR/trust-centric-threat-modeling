@@ -462,17 +462,7 @@ As organizations increasingly deploy autonomous AI systems, trust becomes a crit
 
 > Trust should be treated as a measurable, governable, and protectable organizational capability.
 
-The TCTM methodology provides a structured process for achieving that objective.
-1. Define Scope
-        ↓
-2. Map Trust Domains
-        ↓
-3. Identify Threats
-        ↓
-4. Assess Risks
-        ↓
-5. Evaluate Maturity
-        ↓
-6. Define Controls
-        ↓
-7. Monitor Trust
+The TCTM methodology provides a structured process for achieving that objective.  
+
+![Flow Across Trust Domains.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%20F17.2.png)  
+
