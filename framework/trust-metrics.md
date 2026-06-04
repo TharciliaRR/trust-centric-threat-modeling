@@ -41,17 +41,7 @@ TCTM extends measurement to include:
 
 TCTM evaluates trust through five domains.
 
-```text
-Identity Trust
-       ↓
-Context Trust
-       ↓
-Decision Trust
-       ↓
-Governance Trust
-       ↓
-Operational Trust
-```
+![Flow Across Trust Domains.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%20F1.png)  
 
 Each domain receives a score between:
 
