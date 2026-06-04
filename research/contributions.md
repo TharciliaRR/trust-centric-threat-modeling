@@ -233,7 +233,7 @@ TCTM provides a complete assessment methodology.
 
 ### Phases
 
-![Flow Across Trust Domains.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%20F17.1.png)
+![Flow Across Trust Domains.](![Flow Across Trust Domains.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%20F17.3.png))
 
 ---
 
