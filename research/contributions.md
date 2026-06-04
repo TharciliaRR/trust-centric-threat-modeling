@@ -233,21 +233,7 @@ TCTM provides a complete assessment methodology.
 
 ### Phases
 
-```text
-Define Scope
-       ↓
-Map Trust Domains
-       ↓
-Identify Threats
-       ↓
-Assess Trust Risks
-       ↓
-Evaluate Maturity
-       ↓
-Define Controls
-       ↓
-Monitor and Improve
-```
+![Flow Across Trust Domains.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%20F17.1.png)
 
 ---
 
