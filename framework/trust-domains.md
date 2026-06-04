@@ -1,6 +1,6 @@
-# Trust Domains
+# 14.Trust Domains
 
-## Overview
+## 14.1 Overview
 
 Traditional cybersecurity frameworks primarily focus on protecting information assets through confidentiality, integrity, and availability controls.
 
@@ -587,263 +587,178 @@ These dimensions are highly effective for evaluating conventional threats such a
 However, autonomous AI systems introduce a new challenge.  
 An incident may have limited operational consequences while causing significant degradation of organizational trust.  
 
-## Taxonomy Structure
+For example:
+| Incident                          | Operational Impact | Trust Impact |
+|-----------------------------------|--------------------|--------------|
+| Temporary API Failure             | Moderate           | Low          |
+| Hallucinated Executive Recommendation | Moderate       | Critical     |
 
-![Flow Across Trust Domains.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%20F14.png)  
+In both cases, the operational impact may be similar.  
+The trust consequences are dramatically different.  
+To address this gap, the Trust-Centric Threat Modeling Framework (TCTM) introduces Trust Impact as an independent risk dimension.  
 
-Each category represents a distinct class of threats capable of degrading trust in autonomous AI systems.  
+### Traditional Risk Models  
+Most risk frameworks evaluate risk using:  
+Risk = Impact × Likelihood  
 
-## TMT – Trust Manipulation Threats  
-**Definition** 
-Trust Manipulation Threats target the information, context, and interactions used by autonomous agents.  
-The objective of these attacks is to influence system behavior by manipulating trusted inputs.  
+While effective for traditional cybersecurity assessments, this approach does not adequately capture the trust implications of autonomous decision-making.  
 
-**Security Objective**
-Preserve Context Trust.  
+### TCTM Risk Model  
+The Trust Risk Matrix extends traditional risk calculations. 
+Risk = Impact × Likelihood × Trust Impact  
 
-**Core Question**  
-_Can the system trust the information it receives?_
+Where:  
+- Impact = Operational consequence
+- Likelihood = Probability of occurrence
+- Trust Impact = Degree of trust degradation
 
-### TMT-01 Prompt Injection 
+This additional dimension enables organizations to evaluate not only technical and operational consequences, but also the effect of incidents on stakeholder confidence and decision reliability. 
 
-**Description**  
-Malicious instructions embedded in prompts, documents, emails, or retrieved content designed to influence model behavior. 
+### Risk Dimensions  
 
-**Example** 
-An attacker embeds hidden instructions within a document processed by an AI assistant.  
+**Impact** 
+Measures the operational, financial, legal, or business consequences of an incident. 
 
-**Affected Trust Domains**  
-- Context Trust
-- Decision Trust
+**Impact Scale** 
 
-### TMT-02 Context Poisoning  
+| Score | Description |
+|--------|-------------|
+| 1 | Negligible |
+| 2 | Minor |
+| 3 | Moderate |
+| 4 | Significant |
+| 5 | Severe |
 
-**Description**  
-Manipulation of retrieved information used by RAG systems or knowledge repositories.  
+### Likelihood  
+Measures the probability that a threat will occur.  
 
-**Example** 
-Corrupted policies inserted into an internal knowledge base.  
+**Likelihood Scale** 
+| Score | Description      |
+|--------|------------------|
+| 1      | Rare             |
+| 2      | Unlikely         |
+| 3      | Possible         |
+| 4      | Likely           |
+| 5      | Almost Certain   |
 
-**Affected Trust Domains**  
-- Context Trust
-- Governance Trust
-  
-### TMT-03 Knowledge Base Tampering  
+### Trust Impact
+Measures the effect of an incident on stakeholder confidence and organizational trust.  
 
-**Description**
-Unauthorized modification of organizational knowledge sources.  
+**Trust Impact Scale**  
+| Score | Description                     |
+|--------|---------------------------------|
+| 1      | Minimal Trust Degradation       |
+| 2      | Limited Confidence Reduction    |
+| 3      | Noticeable Trust Impact         |
+| 4      | Significant Trust Erosion       |
+| 5      | Critical Loss of Confidence     |
 
-**Example** 
-Altering compliance documentation used by AI agents. 
+### Trust Impact Assessment Criteria  
+Trust Impact should be evaluated using multiple dimensions.  
+Organizations should consider:  
 
-**Affected Trust Domains**
-- Context Trust
-  
-### TMT-04 Confidence Manipulation
-**Description**  
-Attempts to artificially increase confidence in unreliable outputs.   
+**Decision Reliability**  
+Can stakeholders continue relying on system outputs?  
+
+**Governance Confidence**
+Can leadership continue trusting governance mechanisms?  
+
+**Regulatory Confidence** 
+Would regulators question organizational oversight? 
+
+**Stakeholder Confidence**  
+Would users lose confidence in the system?  
+
+**Organizational Reputation**
+Could the incident affect public perception?
+
+## Risk Calculation Example
+### Threat
+Prompt Injection 
+
+### Assessment 
+| Factor       | Score |
+|--------------|-------|
+| Impact       | 5     |
+| Likelihood   | 4     |
+| Trust Impact | 5     |
+
+**Risk Score**  
+Risk = 5 × 4 × 5  
+Risk = 100  
+
+**Classification**  
+Critical  
+
+### Risk Classification
+After calculating the score, risks are categorized according to the following scale. 
+| Score Range | Category  |
+|-------------|-----------|
+| 1–20        | Low       |
+| 21–40       | Moderate  |
+| 41–60       | High      |
+| 61–80       | Very High |
+| 81–125      | Critical  |
+
+### Trust Risk Matrix  
+The Trust Risk Matrix enables rapid visualization of trust-related risk levels.  
+| Trust Impact ↓ / Likelihood → | 1 | 2 | 3 | 4 | 5 |
+|-------------------------------|---|---|---|---|---|
+| **5** | M | H | VH | C | C |
+| **4** | M | M | H | VH | C |
+| **3** | L | M | H | H | VH |
+| **2** | L | L | M | H | H |
+| **1** | L | L | M | M | H |
+
+
+### Legend 
+| Code | Risk Level |
+|------|------------|
+| L    | Low        |
+| M    | Moderate   |
+| H    | High       |
+| VH   | Very High  |
+| C    | Critical   |  
+
+### Mapping Risks to Trust Domains
+The Trust Risk Matrix is designed to support all Trust Domains.  
+
+| Trust Domain        | Example Threat          |
+|---------------------|-------------------------|
+| Identity Trust      | Privilege Escalation    |
+| Context Trust       | Context Poisoning       |
+| Decision Trust      | Hallucinated Actions    |
+| Governance Trust    | Missing Accountability  |
+| Operational Trust   | Agent Hijacking         |
+
+This mapping enables organizations to identify which dimensions of trust require additional controls.  
+
+### Trust Risk Dashboard  
+Organizations may aggregate scores into a Trust Risk Dashboard.  
 
 **Example**  
-An attacker causes the model to present uncertain recommendations as highly reliable.  
+| Metric                   | Current Score |
+|--------------------------|--------------:|
+| Identity Trust Risk      | 18 |
+| Context Trust Risk       | 47 |
+| Decision Trust Risk      | 62 |
+| Governance Trust Risk    | 31 |
+| Operational Trust Risk   | 42 | 
 
-**Affected Trust Domains**  
-- Decision Trust
+This approach transforms trust into a measurable and governable risk indicator. 
 
-## DIT – Decision Integrity Threats  
+## Why the Trust Risk Matrix Matters
+Traditional cybersecurity frameworks focus on protecting systems.  
+Autonomous AI systems require organizations to protect confidence in decisions.  
+The Trust Risk Matrix enables organizations to:  
+- Prioritize trust-related risks
+- Quantify trust degradation
+- Improve governance decisions
+- Support regulatory compliance
+- Measure confidence in autonomous systems
 
-**Definition** 
-Decision Integrity Threats affect the reliability, consistency, and alignment of autonomous decisions.  
+Trust becomes a measurable organizational asset rather than a subjective perception.
 
-These threats do not necessarily compromise infrastructure but compromise trust in outcomes.  
+# Key Takeaway
+The Trust Risk Matrix extends traditional cybersecurity risk assessment by introducing Trust Impact as a third dimension of risk. This approach enables organizations to evaluate not only operational consequences, but also the effect of incidents on confidence, governance, and decision integrity. As autonomous systems become increasingly influential, measuring trust becomes as important as measuring security.
 
-**Security Objective** 
-Preserve Decision Trust. 
-
-**Core Question** 
-_Can stakeholders trust the decisions produced by the system?_ 
-
-### DIT-01 Hallucinated Actions  
-
-**Description**
-Actions or recommendations based on fabricated information.
-
-**Example**  
-A financial agent generates investment advice using nonexistent market data. 
-
-**Affected Trust Domains** 
-- Decision Trust
-  
-### DIT-02 Decision Drift  
-
-**Description**  
-Progressive deviation from intended objectives or organizational policies. 
-
-**Example** 
-An AI assistant gradually favors actions inconsistent with business goals. 
-
-**Affected Trust Domains** 
-- Decision Trust
-- Operational Trust
-
-### DIT-03 Misalignment  
-
-**Description** 
-Decisions conflict with organizational strategy, ethics, or compliance requirements. 
-
-**Example**
-Cost-saving recommendations that violate regulatory obligations. 
-
-**Affected Trust Domains** 
-- Decision Trust
-- Governance Trust
-
-### DIT-04 Unjustified Confidence  
-
-**Description**
-High-confidence recommendations generated without sufficient evidence.  
-
-**Example** 
-An executive recommendation produced without supporting data.  
-
-**Affected Trust Domains**
-- Decision Trust
-
-## GFT – Governance Failure Threats  
-
-**Definition**  
-Governance Failure Threats undermine accountability, oversight, transparency, and compliance. 
-These threats reduce organizational ability to explain and govern autonomous systems.  
-
-**Security Objective**  
-Preserve Governance Trust. 
-
-**Core Question**  
-_Can the organization effectively govern and audit autonomous decisions?_
-
-### GFT-01 Missing Accountability  
-
-**Description**  
-Inability to identify ownership of autonomous decisions.  
-
-**Example** 
-No individual or team is responsible for AI-generated actions. 
-
-**Affected Trust Domains**
-- Governance Trust
-
-### GFT-02 Lack of Auditability  
-
-**Description**  
-Decisions cannot be reconstructed or explained. 
-
-**Example**  
-Missing logs and reasoning traces. 
-
-**Affected Trust Domains**  
-- Governance Trust
-
-### GFT-03 Governance Bypass  
-**Description** 
-Circumvention of organizational governance controls. 
-
-**Example** 
-Agents execute actions without required approvals.  
-
-**Affected Trust Domains**
-- Governance Trust
-- Operational Trust
-
-### GFT-04 Regulatory Non-Compliance  
-
-**Description**  
-Autonomous behavior violates legal or regulatory requirements.  
-
-**Example** 
-Improper processing of personal information.  
-
-**Affected Trust Domains** 
-- Governance Trust
-
-## OTT – Operational Trust Threats  
-
-**Definition**
-Operational Trust Threats target the reliability, resilience, and operational behavior of autonomous systems.  
-These threats may disrupt confidence in ongoing operations.  
-
-**Security Objective** 
-Preserve Operational Trust. 
-
-**Core Question**
-_Can the system operate reliably and securely over time?_
-
-### OTT-01 Agent Hijacking  
-
-**Description**  
-Unauthorized manipulation of agent behavior. 
-
-**Example** 
-An attacker gains control of autonomous workflows. 
-
-**Affected Trust Domains**
-- Operational Trust
-
-## OTT-02 Autonomous Cascade Failure  
-
-**Description**  
-Failures propagate across interconnected agents. 
-
-**Example** 
-One compromised planning agent impacts multiple downstream systems. 
-
-**Affected Trust Domains** 
-- Operational Trust
-- Decision Trust
-  
-### OTT-03 Runtime Manipulation  
-
-**Description** 
-Modification of agent behavior during execution.
-
-**Example**
-Malicious alteration of runtime parameters. 
-
-**Affected Trust Domains**  
-- Operational Trust
-  
-### OTT-04 Trust Degradation Event  
-
-**Description** 
-An incident causing measurable reduction in stakeholder confidence. 
-
-**Example**
-Repeated incorrect recommendations reduce executive trust. 
-
-**Affected Trust Domains**
-- Operational Trust
-- Governance Trust
-  
-# Mapping to Existing Frameworks
-TCTM and Existing Models
-
-| TCTM Threat             | STRIDE                 | OWASP LLM Top 10           | MITRE ATLAS           |
-|-------------------------|------------------------|----------------------------|-----------------------|
-| Prompt Injection        | Tampering              | LLM01 – Prompt Manipulation | Prompt Injection      |
-| Context Poisoning       | Tampering              | LLM02 – Data Poisoning      | Data Poisoning        |
-| Agent Hijacking         | Elevation of Privilege | LLM08 – Agent Manipulation  | Agent Hijacking       |
-| Decision Drift          | N/A                    | Partial Coverage            | N/A                   |
-| Missing Accountability  | N/A                    | N/A                         | N/A                   |
-| Confidence Manipulation | N/A                    | N/A                         | N/A                   |
-
-## Research Gap
-Existing frameworks provide extensive coverage of technical threats affecting AI systems.  
-However, they provide limited support for evaluating:  
-- trust degradation;
-- decision integrity;
-- accountability failures;
-- governance weaknesses;
-- confidence manipulation.
-
-The TCTM Threat Taxonomy extends traditional approaches by introducing trust as a primary threat modeling dimension. 
-
-## Key Takeaway
-The TCTM Threat Taxonomy provides a structured methodology for identifying threats that affect trust in autonomous AI systems. By focusing on trust manipulation, decision integrity, governance failures, and operational trust, the framework expands traditional cybersecurity models to address the unique challenges introduced by autonomous decision-making.
