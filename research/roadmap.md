@@ -206,19 +206,9 @@ Establish trust as a strategic business capability.
 
 # Strategic Research Themes
 
-The roadmap focuses on five strategic themes:
+The roadmap focuses on five strategic themes:  
 
-```text
-Trust Engineering
-       ↓
-Decision Security
-       ↓
-Trust Observability
-       ↓
-Agent Governance
-       ↓
-AI Assurance
-```
+![Flow Across Trust Domains.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%20F17.4.png)  
 
 Together, these themes form the foundation for future research into trustworthy autonomous systems.
 
