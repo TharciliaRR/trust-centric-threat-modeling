@@ -26,21 +26,7 @@ The methodology enables organizations to identify trust-related threats, assess 
 
 The TCTM assessment process consists of seven phases.
 
-```text
-1. Define Scope
-        ↓
-2. Map Trust Domains
-        ↓
-3. Identify Threats
-        ↓
-4. Assess Trust Risks
-        ↓
-5. Evaluate Maturity
-        ↓
-6. Define Trust Controls
-        ↓
-7. Monitor and Improve
-```
+![Flow Across Trust Domains.](https://github.com/TharciliaRR/trust-centric-threat-modeling/blob/main/diagrams/Diagram%20F17.1.png)  
 
 ---
 
